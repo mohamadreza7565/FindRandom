@@ -8,7 +8,7 @@
 ## Dependency
 ```Gradle
 dependencies {
-	        implementation 'com.github.mohamadreza7565:FindRandom:Tag'
+	        implementation 'com.github.mohamadreza7565:FindRandom:1.0.0'
 	}
 ```
 
