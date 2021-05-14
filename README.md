@@ -12,7 +12,9 @@ dependencies {
 	}
 ```
 
-```Maven
+
+## Maven
+```Gradle
 allprojects {
 		repositories {
 			...
