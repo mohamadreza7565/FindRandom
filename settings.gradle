@@ -1,0 +1,3 @@
+include ':FindRandom'
+include ':app'
+rootProject.name = "Find Random"
