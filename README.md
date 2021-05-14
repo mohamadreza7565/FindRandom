@@ -8,19 +8,19 @@
 ## Dependency
 ```Gradle
 dependencies {
-	        implementation 'com.github.mohamadreza7565:FindRandom:1.0.0'
-	}
+    implementation 'com.github.mohamadreza7565:FindRandom:1.0.0'
+}
 ```
 
 
 ## Maven
 ```Gradle
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+     repositories {
+	...
+     maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ### Examples
@@ -38,33 +38,33 @@ allprojects {
 
 ```kotlin
 
-    val count = 5
-    val duplicate = false
+val count = 5
+val duplicate = false
      
-    var numbers  = ArrayList<Int>()
-    numbers.add(5)
-    numbers.add(7)
-    numbers.add(15)
-    numbers.add(25)
-    numbers.add(4)
-    numbers.add(3)
+var numbers  = ArrayList<Int>()
+numbers.add(5)
+numbers.add(7)
+numbers.add(15)
+numbers.add(25)
+numbers.add(4)
+numbers.add(3)
      
-    FindRandom(count,duplicate).findFromInteger(numbers)
+FindRandom(count,duplicate).findFromInteger(numbers)
 
 ```
 
 ```kotlin
 
-   val count = 5
-   val duplicate = false
+ val count = 5
+ val duplicate = false
 
-   var strings  = ArrayList<String>()
-   strings.add("Mohamad")
-   strings.add("Ali")
-   strings.add("Elahe")
-   strings.add("Danial")
-   strings.add("Aghil")
+ var strings  = ArrayList<String>()
+ strings.add("Mohamad")
+ strings.add("Ali")
+ strings.add("Elahe")
+ strings.add("Danial")
+ strings.add("Aghil")
 
-   FindRandom(count,duplicate).findFromString(strings)
+ FindRandom(count,duplicate).findFromString(strings)
 
 ```
